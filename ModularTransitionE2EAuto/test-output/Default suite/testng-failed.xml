@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="myar.testcases.MyarRegression">
+        <methods>
+          <include name="intialize"/>
+          <include name="verifyOnExcelImportClickingProductIdAtImportStatusOpensImportedProductInEditor"/>
+          <include name="verifyAddingNewUserAdminUserFunctionality"/>
+          <include name="verifyAddingNewSubgroupAdminUserFunctionality"/>
+          <include name="verifyStandardProductCreationUsingProductNameThroughExcelImport"/>
+          <include name="verifyScenesMappingWithScenesInExcel"/>
+          <include name="cleanup"/>
+          <include name="setup"/>
+          <include name="verifyGeoMappingsNotVisibleInCHOOSE_MAPPING_SectionImportingStandardProduct"/>
+          <include name="takeScreenshotInCaseOfFailure"/>
+        </methods>
+      </class> <!-- myar.testcases.MyarRegression -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

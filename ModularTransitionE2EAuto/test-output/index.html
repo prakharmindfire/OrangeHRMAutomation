@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Myar_Regression_Suit" class="navigator-link">
+              <span class="suite-name border-failed">Myar_Regression_Suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Myar_Regression_Suit" class="navigator-link ">
+                    <span>D:\OneDrive\Desktop\ModularTransitionE2EAuto\ModularTransitionE2EAuto\src\main\resources\MyarRegression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Myar_Regression_Suit" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Myar_Regression_Suit" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Myar_Regression_Suit" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Myar_Regression_Suit" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Myar_Regression_Suit" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Myar_Regression_Suit" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Myar_Regression_Suit" class="hide-methods failed suite-Myar_Regression_Suit"> (hide)</a> <!-- hide-methods failed suite-Myar_Regression_Suit -->
+                      <a href="#" panel-name="suite-Myar_Regression_Suit" class="show-methods failed suite-Myar_Regression_Suit"> (show)</a> <!-- show-methods failed suite-Myar_Regression_Suit -->
+                    </span>
+                    <div class="method-list-content failed suite-Myar_Regression_Suit">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Myar_Regression_Suit" title="myar.testcases.MyarRegression" class="method navigator-link" hash-for-method="verifyLoginFunctionalityWithValidCredentials">verifyLoginFunctionalityWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Myar_Regression_Suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Myar_Regression_Suit" class="panel Myar_Regression_Suit">
+          <div class="suite-Myar_Regression_Suit-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">myar.testcases.MyarRegression</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionalityWithValidCredentials">
+                  </a> <!-- verifyLoginFunctionalityWithValidCredentials -->
+                  <span class="method-name">verifyLoginFunctionalityWithValidCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: (//input[@name=&apos;select&apos;])[3]&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.qa.util.TestUtil.waitForElementToLoad(TestUtil.java:302)
+	at com.qa.util.TestUtil.clickElement(TestUtil.java:411)
+	at myar.pages.MyarLoginPage.clickOnLanguageDropDown(MyarLoginPage.java:142)
+	at myar.pages.MyarLoginPage.login(MyarLoginPage.java:106)
+	at myar.testcases.MyarRegression.verifyLoginFunctionalityWithValidCredentials(MyarRegression.java:234)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: (//input[@name=&apos;select&apos;])[3]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f5c5cd53-8c86-4eee-af42-85114304f393, findElement {using=xpath, value=(//input[@name=&apos;select&apos;])[3]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0.2, moz:accessibilityChecks: false, moz:buildID: 20240624183754, moz:debuggerAddress: 127.0.0.1:20063, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8500, moz:profile: C:\Users\PRASEN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20063/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f5c5cd53-8c86-4eee-af42-85114304f393
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:106)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:195)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 33 more
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Myar_Regression_Suit-class-failed -->
+        </div> <!-- panel Myar_Regression_Suit -->
+        <div panel-name="test-xml-Myar_Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\OneDrive\Desktop\ModularTransitionE2EAuto\ModularTransitionE2EAuto\src\main\resources\MyarRegression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Myar_Regression_Suit&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.RetryAnalyzer.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Myar Regression Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myar.testcases.MyarRegression&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyLoginFunctionalityWithValidCredentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- myar.testcases.MyarRegression --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Myar Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- Myar_Regression_Suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Myar_Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Myar_Regression_Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Myar Regression Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Myar_Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Myar_Regression_Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Myar_Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Myar_Regression_Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Myar_Regression_Suit');
+function tableData_Myar_Regression_Suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyLoginFunctionalityWithValidCredentials')
+data.setCell(0, 2, 'myar.testcases.MyarRegression')
+data.setCell(0, 3, 87215);
+window.suiteTableData['Myar_Regression_Suit']= { tableData: data, tableDiv: 'times-div-Myar_Regression_Suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Myar_Regression_Suit">
+              </div> <!-- times-div-Myar_Regression_Suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Myar_Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Myar_Regression_Suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginFunctionalityWithValidCredentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Cleared browser cookies</span>
+                <span class="reporter-method-output">Login URL: https://opensource-demo.orangehrmlive.com</span>
+                <span class="reporter-method-output">Clicking on : Language selector drop-down</span>
+                <span class="reporter-method-output">Waiting for web element to load on the page : Language selector drop-down</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Myar_Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">16 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">myar.testcases.MyarRegression</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyAddingNewSubgroupAdminUserFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyStandardProductCreationUsingProductNameThroughExcelImport</span>
+                <br/>
+                <span class="ignored-method-name">verifyResetPasswordFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyScenesMappingWithScenesInExcel</span>
+                <br/>
+                <span class="ignored-method-name">verifyBilledTargetsForTrustedPartnersDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddRenameDeleteFolderActionsOfProductSection</span>
+                <br/>
+                <span class="ignored-method-name">verifyChangingRGB_ValuesChangesBackgroundColorOfEditor</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddRenameDeleteFolderActionsOfMediaSection</span>
+                <br/>
+                <span class="ignored-method-name">verifyAddingNewUserAdminUserFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyChangingHSL_ValuesChangesBackgroundColorOfEditor</span>
+                <br/>
+                <span class="ignored-method-name">verifyGeoMappingsNotVisibleInCHOOSE_MAPPING_SectionImportingStandardProduct</span>
+                <br/>
+                <span class="ignored-method-name">verifyManageAPI_KeyFunctionality</span>
+                <br/>
+                <span class="ignored-method-name">verifyOnExcelImportClickingProductIdAtImportStatusOpensImportedProductInEditor</span>
+                <br/>
+                <span class="ignored-method-name">verifyValidationFailureCreatingStandardProductWhenGeoProductOfSameNameExists</span>
+                <br/>
+                <span class="ignored-method-name">verify_different_URL_Ar_Actions_can_be_assigned_in_differnt_languages</span>
+                <br/>
+                <span class="ignored-method-name">verifyChangeEmailAddressFunctionality</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Myar_Regression_Suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">myar.testcases.MyarRegression</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">intialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">9676 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLoginFunctionalityWithValidCredentials</span>
+                <span class="method-start">10673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotInCaseOfFailure([TestResult name=verifyLoginFunctionalityWithValidCredentials status=FAILURE method=MyarRegression.v...)</span>
+                <span class="method-start">97893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">97989 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="D2 Intake Test Suite">
+	<test name="Test">
+		<method-selectors>
+			<method-selector>
+				<script language="beanshell"><![CDATA[		
+				groupNamesToRun = System.getProperty("groupToRun");
+				
+				// If no group names are provided run all groups.
+				
+				if ((groupNamesToRun == null) || (groupNamesToRun == "")) {
+				
+				
+					return true;
+				}
+				
+				
+				else
+				{
+				
+				
+					StringTokenizer groupsList = new StringTokenizer(groupNamesToRun, ",");
+					
+					
+					// If tagged group of method contains passed group names
+					while (groupsList.hasMoreTokens()) {
+						if (groups.containsKey(groupsList.nextToken()))
+							return true;
+						}
+						
+						// Ignore method if desired group names not matched
+							return false;
+					}
+				}
+				
+				
+				]]>
+				</script>
+			</method-selector>
+		</method-selectors>
+		<classes>
+			<class name="com.qa.testcases.ModularSmoke">
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Modular_Smoke">
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.qa.RetryAnalyzer.AnnotationTransformer" />
+	</listeners>
+
+	<test name="Modular Smoke Suite">
+		<classes>
+			<class name="com.qa.testcases.ModularSmoke">
+				 <methods>
+					<!-- <include name="" />
+					<exclude name="" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

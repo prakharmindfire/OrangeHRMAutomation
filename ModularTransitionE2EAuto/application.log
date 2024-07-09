@@ -1,14 +1,14 @@
-07-09-2024 13:12:29 TestBase.java [INFO ] - Test Suite Name: MyarRegression
-07-09-2024 13:12:29 TestBase.java [INFO ] - browser: firefox
-07-09-2024 13:12:29 TestBase.java [INFO ] - environment: myar_stagging
-07-09-2024 13:12:37 TestBase.java [INFO ] - firefox   127.0.2
-07-09-2024 13:12:39 TestBase.java [INFO ] - Cleared browser cookies
-07-09-2024 13:12:39 TestBase.java [INFO ] - Login URL: https://opensource-demo.orangehrmlive.com
-07-09-2024 13:12:45 TestBase.java [INFO ] - Clicking on : Language selector drop-down
-07-09-2024 13:12:45 TestBase.java [INFO ] - Waiting for web element to load on the page : Language selector drop-down
-07-09-2024 13:14:06 TestBase.java [INFO ] - TEST FAILED: verifyLoginFunctionalityWithValidCredentials
-07-09-2024 13:14:06 TestBase.java [INFO ] - Capturing Screenshot
-07-09-2024 13:14:07 TestBase.java [INFO ] - BUILD NUMBER in screenshot method: null
-07-09-2024 13:14:07 TestBase.java [INFO ] - SCREENSHOT LOCATION: D:\OneDrive\Desktop\ModularTransitionE2EAuto\ModularTransitionE2EAuto\test-output\TestResults\Report_09_Jul_2024_13_12_38\verifyLoginFunctionalityWithValidCredentials20240709011406.png
-07-09-2024 13:14:07 TestBase.java [INFO ] - Quitting browser
-07-09-2024 13:14:09 TestBase.java [INFO ] - Clearing threadlocal
+07-09-2024 17:17:47 TestBase.java [INFO ] - Test Suite Name: MyarRegression
+07-09-2024 17:17:47 TestBase.java [INFO ] - browser: firefox
+07-09-2024 17:17:47 TestBase.java [INFO ] - environment: myar_stagging
+07-09-2024 17:18:00 TestBase.java [INFO ] - firefox   127.0.2
+07-09-2024 17:18:00 TestBase.java [INFO ] - Cleared browser cookies
+07-09-2024 17:18:00 TestBase.java [INFO ] - Login URL: https://opensource-demo.orangehrmlive.com
+07-09-2024 17:18:06 TestBase.java [INFO ] - Clicking on : Language selector drop-down
+07-09-2024 17:18:06 TestBase.java [INFO ] - Waiting for web element to load on the page : Language selector drop-down
+07-09-2024 17:19:28 TestBase.java [INFO ] - TEST FAILED: verifyLoginFunctionalityWithValidCredentials
+07-09-2024 17:19:28 TestBase.java [INFO ] - Capturing Screenshot
+07-09-2024 17:19:28 TestBase.java [INFO ] - BUILD NUMBER in screenshot method: null
+07-09-2024 17:19:28 TestBase.java [INFO ] - SCREENSHOT LOCATION: D:\OneDrive\Desktop\PrakharPractise\OrangeHRMAutomation\ModularTransitionE2EAuto\test-output\TestResults\Report_09_Jul_2024_17_18_00\verifyLoginFunctionalityWithValidCredentials20240709051928.png
+07-09-2024 17:19:28 TestBase.java [INFO ] - Quitting browser
+07-09-2024 17:19:30 TestBase.java [INFO ] - Clearing threadlocal

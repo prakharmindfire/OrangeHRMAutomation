@@ -35,7 +35,7 @@
       <![CDATA[BUILD NUMBER in screenshot method: null]]>
     </line>
     <line>
-      <![CDATA[SCREENSHOT LOCATION: D:\OneDrive\Desktop\ModularTransitionE2EAuto\ModularTransitionE2EAuto\test-output\TestResults\Report_09_Jul_2024_13_12_38\verifyLoginFunctionalityWithValidCredentials20240709011406.png]]>
+      <![CDATA[SCREENSHOT LOCATION: D:\OneDrive\Desktop\PrakharPractise\OrangeHRMAutomation\ModularTransitionE2EAuto\test-output\TestResults\Report_09_Jul_2024_17_18_00\verifyLoginFunctionalityWithValidCredentials20240709051928.png]]>
     </line>
     <line>
       <![CDATA[Quitting browser]]>
@@ -44,12 +44,12 @@
       <![CDATA[Clearing threadlocal]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-09T13:12:29 IST" name="Myar_Regression_Suit" finished-at="2024-07-09T13:14:09 IST" duration-ms="100127">
+  <suite started-at="2024-07-09T17:17:47 IST" name="Myar_Regression_Suit" finished-at="2024-07-09T17:19:30 IST" duration-ms="102798">
     <groups>
     </groups>
-    <test started-at="2024-07-09T13:12:29 IST" name="Myar Regression Test" finished-at="2024-07-09T13:14:09 IST" duration-ms="100127">
+    <test started-at="2024-07-09T17:17:47 IST" name="Myar Regression Test" finished-at="2024-07-09T17:19:30 IST" duration-ms="102798">
       <class name="myar.testcases.MyarRegression">
-        <test-method is-config="true" signature="intialize()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T13:12:29 IST" name="intialize" finished-at="2024-07-09T13:12:38 IST" duration-ms="9501" status="PASS">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T17:17:47 IST" name="intialize" finished-at="2024-07-09T17:18:00 IST" duration-ms="12621" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Suite Name: MyarRegression]]>
@@ -65,11 +65,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T13:12:38 IST" name="setup" finished-at="2024-07-09T13:12:39 IST" duration-ms="994" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T17:18:00 IST" name="setup" finished-at="2024-07-09T17:18:00 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginFunctionalityWithValidCredentials()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T13:12:39 IST" name="verifyLoginFunctionalityWithValidCredentials" finished-at="2024-07-09T13:14:06 IST" duration-ms="87215" status="FAIL">
+        <test-method signature="verifyLoginFunctionalityWithValidCredentials()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T17:18:00 IST" name="verifyLoginFunctionalityWithValidCredentials" finished-at="2024-07-09T17:19:28 IST" duration-ms="87401" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//input[@name='select'])[3]' (tried for 60 second(s) with 500 milliseconds interval)]]>
@@ -116,9 +116,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f5c5cd53-8c86-4eee-af42-85114304f393, findElement {using=xpath, value=(//input[@name='select'])[3]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0.2, moz:accessibilityChecks: false, moz:buildID: 20240624183754, moz:debuggerAddress: 127.0.0.1:20063, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8500, moz:profile: C:\Users\PRASEN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20063/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: f5c5cd53-8c86-4eee-af42-85114304f393
+Command: [2bbb3e5c-9dee-4112-927a-636d79955051, findElement {using=xpath, value=(//input[@name='select'])[3]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0.2, moz:accessibilityChecks: false, moz:buildID: 20240624183754, moz:debuggerAddress: 127.0.0.1:31517, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7692, moz:profile: C:\Users\PRASEN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:31517/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2bbb3e5c-9dee-4112-927a-636d79955051
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -169,7 +169,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoginFunctionalityWithValidCredentials -->
-        <test-method is-config="true" signature="takeScreenshotInCaseOfFailure(org.testng.ITestResult)[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T13:14:06 IST" name="takeScreenshotInCaseOfFailure" finished-at="2024-07-09T13:14:07 IST" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="takeScreenshotInCaseOfFailure(org.testng.ITestResult)[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T17:19:28 IST" name="takeScreenshotInCaseOfFailure" finished-at="2024-07-09T17:19:28 IST" duration-ms="61" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -188,11 +188,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
               <![CDATA[BUILD NUMBER in screenshot method: null]]>
             </line>
             <line>
-              <![CDATA[SCREENSHOT LOCATION: D:\OneDrive\Desktop\ModularTransitionE2EAuto\ModularTransitionE2EAuto\test-output\TestResults\Report_09_Jul_2024_13_12_38\verifyLoginFunctionalityWithValidCredentials20240709011406.png]]>
+              <![CDATA[SCREENSHOT LOCATION: D:\OneDrive\Desktop\PrakharPractise\OrangeHRMAutomation\ModularTransitionE2EAuto\test-output\TestResults\Report_09_Jul_2024_17_18_00\verifyLoginFunctionalityWithValidCredentials20240709051928.png]]>
             </line>
           </reporter-output>
         </test-method> <!-- takeScreenshotInCaseOfFailure -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T13:14:07 IST" name="cleanup" finished-at="2024-07-09T13:14:09 IST" duration-ms="2093" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:myar.testcases.MyarRegression@6d23017e]" started-at="2024-07-09T17:19:28 IST" name="cleanup" finished-at="2024-07-09T17:19:30 IST" duration-ms="2459" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Quitting browser]]>

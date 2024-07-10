@@ -1,14 +1,27 @@
-07-09-2024 17:17:47 TestBase.java [INFO ] - Test Suite Name: MyarRegression
-07-09-2024 17:17:47 TestBase.java [INFO ] - browser: firefox
-07-09-2024 17:17:47 TestBase.java [INFO ] - environment: myar_stagging
-07-09-2024 17:18:00 TestBase.java [INFO ] - firefox   127.0.2
-07-09-2024 17:18:00 TestBase.java [INFO ] - Cleared browser cookies
-07-09-2024 17:18:00 TestBase.java [INFO ] - Login URL: https://opensource-demo.orangehrmlive.com
-07-09-2024 17:18:06 TestBase.java [INFO ] - Clicking on : Language selector drop-down
-07-09-2024 17:18:06 TestBase.java [INFO ] - Waiting for web element to load on the page : Language selector drop-down
-07-09-2024 17:19:28 TestBase.java [INFO ] - TEST FAILED: verifyLoginFunctionalityWithValidCredentials
-07-09-2024 17:19:28 TestBase.java [INFO ] - Capturing Screenshot
-07-09-2024 17:19:28 TestBase.java [INFO ] - BUILD NUMBER in screenshot method: null
-07-09-2024 17:19:28 TestBase.java [INFO ] - SCREENSHOT LOCATION: D:\OneDrive\Desktop\PrakharPractise\OrangeHRMAutomation\ModularTransitionE2EAuto\test-output\TestResults\Report_09_Jul_2024_17_18_00\verifyLoginFunctionalityWithValidCredentials20240709051928.png
-07-09-2024 17:19:28 TestBase.java [INFO ] - Quitting browser
-07-09-2024 17:19:30 TestBase.java [INFO ] - Clearing threadlocal
+07-10-2024 15:44:00 TestBase.java [INFO ] - Test Suite Name: MyarRegression
+07-10-2024 15:44:00 TestBase.java [INFO ] - browser: firefox
+07-10-2024 15:44:00 TestBase.java [INFO ] - environment: myar_stagging
+07-10-2024 15:44:04 TestBase.java [INFO ] - firefox   127.0
+07-10-2024 15:44:04 TestBase.java [INFO ] - Cleared browser cookies
+07-10-2024 15:44:04 TestBase.java [INFO ] - Login URL: https://opensource-demo.orangehrmlive.com
+07-10-2024 15:44:07 TestBase.java [INFO ] - Clicking on : Language selector drop-down
+07-10-2024 15:44:07 TestBase.java [INFO ] - Waiting for web element to load on the page : Language selector drop-down
+07-10-2024 15:45:29 TestBase.java [INFO ] - TEST FAILED: verifyAddRenameDeleteFolderActionsOfMediaSection
+07-10-2024 15:45:29 TestBase.java [INFO ] - Capturing Screenshot
+07-10-2024 15:45:29 TestBase.java [INFO ] - BUILD NUMBER in screenshot method: null
+07-10-2024 15:45:29 TestBase.java [INFO ] - SCREENSHOT LOCATION: E:\Practise_Framework\OrangeHRMAutomation\ModularTransitionE2EAuto\test-output\TestResults\Report_10_Jul_2024_15_44_04\verifyAddRenameDeleteFolderActionsOfMediaSection20240710034529.png
+07-10-2024 15:45:29 TestBase.java [INFO ] - Cleared browser cookies
+07-10-2024 15:45:29 TestBase.java [INFO ] - Login URL: https://opensource-demo.orangehrmlive.com
+07-10-2024 15:45:31 TestBase.java [INFO ] - Clicking on : Language selector drop-down
+07-10-2024 15:45:31 TestBase.java [INFO ] - Waiting for web element to load on the page : Language selector drop-down
+07-10-2024 15:46:52 TestBase.java [INFO ] - TEST FAILED: verifyAddRenameDeleteFolderActionsOfProductSection
+07-10-2024 15:46:52 TestBase.java [INFO ] - Capturing Screenshot
+07-10-2024 15:46:52 TestBase.java [INFO ] - BUILD NUMBER in screenshot method: null
+07-10-2024 15:46:52 TestBase.java [INFO ] - SCREENSHOT LOCATION: E:\Practise_Framework\OrangeHRMAutomation\ModularTransitionE2EAuto\test-output\TestResults\Report_10_Jul_2024_15_44_04\verifyAddRenameDeleteFolderActionsOfProductSection20240710034652.png
+07-10-2024 15:46:52 TestBase.java [INFO ] - Cleared browser cookies
+07-10-2024 15:46:52 TestBase.java [INFO ] - Login URL: https://opensource-demo.orangehrmlive.com
+07-10-2024 15:46:55 TestBase.java [INFO ] - Clicking on : Language selector drop-down
+07-10-2024 15:46:55 TestBase.java [INFO ] - Waiting for web element to load on the page : Language selector drop-down
+07-10-2024 15:47:31 TestBase.java [INFO ] - TEST FAILED: verifyAddingNewSubgroupAdminUserFunctionality
+07-10-2024 15:47:31 TestBase.java [INFO ] - Capturing Screenshot
+07-10-2024 15:47:32 TestBase.java [INFO ] - Quitting browser

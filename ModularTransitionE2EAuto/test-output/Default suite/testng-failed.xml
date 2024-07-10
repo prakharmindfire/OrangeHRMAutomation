@@ -6,15 +6,26 @@
       <class name="myar.testcases.MyarRegression">
         <methods>
           <include name="intialize"/>
+          <include name="verifyChangingHSL_ValuesChangesBackgroundColorOfEditor"/>
           <include name="verifyOnExcelImportClickingProductIdAtImportStatusOpensImportedProductInEditor"/>
+          <include name="verifyValidationFailureCreatingStandardProductWhenGeoProductOfSameNameExists"/>
           <include name="verifyAddingNewUserAdminUserFunctionality"/>
-          <include name="verifyAddingNewSubgroupAdminUserFunctionality"/>
-          <include name="verifyStandardProductCreationUsingProductNameThroughExcelImport"/>
-          <include name="verifyScenesMappingWithScenesInExcel"/>
+          <include name="verifyLoginFunctionalityWithValidCredentials"/>
+          <include name="verifyBilledTargetsForTrustedPartnersDisplayed"/>
+          <include name="verifyManageAPI_KeyFunctionality"/>
+          <include name="verifyAddRenameDeleteFolderActionsOfMediaSection"/>
           <include name="cleanup"/>
           <include name="setup"/>
           <include name="verifyGeoMappingsNotVisibleInCHOOSE_MAPPING_SectionImportingStandardProduct"/>
           <include name="takeScreenshotInCaseOfFailure"/>
+          <include name="verifyAddRenameDeleteFolderActionsOfProductSection"/>
+          <include name="verifyChangingRGB_ValuesChangesBackgroundColorOfEditor"/>
+          <include name="verifyAddingNewSubgroupAdminUserFunctionality"/>
+          <include name="verifyResetPasswordFunctionality"/>
+          <include name="verifyStandardProductCreationUsingProductNameThroughExcelImport"/>
+          <include name="verifyScenesMappingWithScenesInExcel"/>
+          <include name="verify_different_URL_Ar_Actions_can_be_assigned_in_differnt_languages"/>
+          <include name="verifyChangeEmailAddressFunctionality"/>
         </methods>
       </class> <!-- myar.testcases.MyarRegression -->
     </classes>
